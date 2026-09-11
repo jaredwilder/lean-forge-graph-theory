@@ -1,6 +1,6 @@
 # lean-forge-graph-theory
 
-**218 Lean 4 theorem files, 217 of them sorry-free, with 217 machine receipts.** Combinatorial
+**218 Lean 4 theorem files, all 218 sorry-free, with 217 machine receipts.** Combinatorial
 graph theory on the Erdos-Gyarfas cycle and clique forbiddenness frontier.
 
 Author: Jared Wilder. First public timestamp: 2026-09-10.
