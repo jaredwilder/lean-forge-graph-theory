@@ -1,0 +1,211 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T171_C4FreeK4FreeCompositionGirthFiveEdgeTransitivity.lean",
+  "sha256": "1ff8e521c3fc608f78010c2e9dfd2995ce86fabc61f90fabbbd9c204203a651e",
+  "source_sha256": "1ff8e521c3fc608f78010c2e9dfd2995ce86fabc61f90fabbbd9c204203a651e",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:55:42Z",
+  "theorem_count": 20,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 20,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "COMP-EDGE-TRANSITIVITY",
+  "semantic_coverage": "orbit-stabilizer-3arc-Kneser-distance-transitive",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T171_C4FreeK4FreeCompositionGirthFiveEdgeTransitivity.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.5,
+    "declarations": [
+      {
+        "declaration": "vertex_stabilizer",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "edge_stabilizer",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "arc_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "arc_stabilizer",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_arc_start",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_arc_extend1",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_arc_extend2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_arc_total",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_arc_transitive",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "tutte_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "foster_order",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dist_trans_b0",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dist_trans_b1",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dist_trans_c1",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dist_trans_c2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "kneser_vertices",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "kneser_degree",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "petersen_complement_degree",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "line_k5_edges",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "line_k5_degree",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "2e862a9bc2724c9dff05ca46fe51bc7d938185eb43843e1d63fa9c88290dc7e9"
+}

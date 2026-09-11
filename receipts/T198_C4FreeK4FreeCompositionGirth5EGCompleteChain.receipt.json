@@ -1,0 +1,203 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T198_C4FreeK4FreeCompositionGirth5EGCompleteChain.lean",
+  "sha256": "1eb26e79f0ae6f11056ccfba38f49a1c1c1ba7dc5d110f3d143a8d905bdbc998",
+  "source_sha256": "1eb26e79f0ae6f11056ccfba38f49a1c1c1ba7dc5d110f3d143a8d905bdbc998",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:57:38Z",
+  "theorem_count": 19,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 19,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "SYNTHESIS-eg-complete-chain-capstone",
+  "semantic_coverage": "moore-pentagons-sharing-xor-8cycle-2^3-full-chain",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T198_C4FreeK4FreeCompositionGirth5EGCompleteChain.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "moore_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pentagon_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "edge_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pentagons_per_edge",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pair_incidences",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "total_pairs",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "disjoint_impossible",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "not_enough_edges",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "sharing_sum",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pair_decomp",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "s2_from_s0",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "s1_sharing",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "eight_is_power_of_2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "eg_exponent",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "xor_weight",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "xor_weight_2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "xor_weight_0",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "eg_cubic_girth_5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "chain_summary",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "62adec06b8e96d0c435a573fbd26d201535972140874dbbe58808d5625753b7d"
+}

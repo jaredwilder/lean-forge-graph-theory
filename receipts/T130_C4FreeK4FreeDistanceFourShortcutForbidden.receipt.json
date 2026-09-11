@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T130_C4FreeK4FreeDistanceFourShortcutForbidden.lean",
+  "sha256": "55f360864f01ba0d3d98beeaaa36b892b8d9fe24f65f6293e7c0111eca4d4c93",
+  "source_sha256": "55f360864f01ba0d3d98beeaaa36b892b8d9fe24f65f6293e7c0111eca4d4c93",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3,
+  "timestamp": "2026-08-28T14:52:40Z",
+  "theorem_count": 4,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 4,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-distance4-shortcut-C4",
+  "semantic_coverage": "distance-4-shortcut-creates-C4",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T130_C4FreeK4FreeDistanceFourShortcutForbidden.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d4_shortcut_uc",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d4_shortcut_aw",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "2af01a9b1229c54bf34c31fd0229d3a95dc0d219c4240e7d32ab58a51c9efcd8"
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T032_C4FreeMaxEdges.lean",
+  "sha256": "48a0c1b5eda5249cc0cff9ad03915cd56d2b13d7a8ab3d7a9f09c95f881a8d5d",
+  "source_sha256": "48a0c1b5eda5249cc0cff9ad03915cd56d2b13d7a8ab3d7a9f09c95f881a8d5d",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T15:11:09Z",
+  "theorem_count": 10,
+  "assumption_return_count": 2,
+  "assumption_returns": [
+    "codegree_sum_bound",
+    "degree_codeg_identity"
+  ],
+  "substantive_count": 8,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-c4free-codegree-one",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T032_C4FreeMaxEdges.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 3.7,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_codegree_one",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "codegree_sum_bound",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "degree_codeg_identity",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "regular_choose2_sum",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "cubic_choose2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_c4free_n6_fails",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_c4free_n7_holds",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_c4free_n8_holds",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "4a0e88769b43420ab53525f35c610ab79d29cd0ab1fd0be57d325e44aeb7c3f9"
+}

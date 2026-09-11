@@ -1,0 +1,275 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T150_C4FreeK4FreeCubicCageArithmetic.lean",
+  "sha256": "eb2e67adcf5bbb232f96385566f7e21690f70753493daf013e39ddc03912aca9",
+  "source_sha256": "eb2e67adcf5bbb232f96385566f7e21690f70753493daf013e39ddc03912aca9",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.5,
+  "timestamp": "2026-08-28T14:54:08Z",
+  "theorem_count": 28,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 28,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-cage-numbers-Moore-excess",
+  "semantic_coverage": "cage-Moore-bound-excess-edges",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T150_C4FreeK4FreeCubicCageArithmetic.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.9,
+    "declarations": [
+      {
+        "declaration": "moore_3_5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_5_full",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_7",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_9",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_11",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_6",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_6_full",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_10",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "moore_3_12",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_6",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_7",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_9",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_10",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_11",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_3_12",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "excess_3_7",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "excess_3_9",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "excess_3_10",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "excess_3_11",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_edges_3_5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_edges_3_6",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_edges_3_7",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_edges_3_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cage_edges_3_12",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "milestone_150",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "cf9887797ecfca5a33a847abe8acf23c1fe97fc46397cafcc12dae125487d9ea"
+}

@@ -1,0 +1,16 @@
+{
+  "file": "T215_CH3UnorderedNonedgeCount.lean",
+  "status": "PASS",
+  "sha256": "47541aef3c59bfe23c10183b853e03052bc348eb4688879bbdb3981e5bb64ba1",
+  "theorem_count": 7,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-unordered_nonedge_count-f086a057",
+  "lean_name": "unordered_nonedge_count",
+  "domain": "directed-graph",
+  "compile_seconds": 0.69,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

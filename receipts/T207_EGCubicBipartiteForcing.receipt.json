@@ -1,0 +1,218 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T207_EGCubicBipartiteForcing.lean",
+  "sha256": "6ae7e5d4d9b1662a3a65ef945bcde1e4a98b17526f5ad62ed51cd2fca67983b1",
+  "source_sha256": "6ae7e5d4d9b1662a3a65ef945bcde1e4a98b17526f5ad62ed51cd2fca67983b1",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:58:17Z",
+  "theorem_count": 21,
+  "assumption_return_count": 1,
+  "assumption_returns": [
+    "bipartite_cubic_even"
+  ],
+  "substantive_count": 20,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-EXTENSION-bipartite-forcing",
+  "semantic_coverage": "class1-3-matchings-cycle-space-even-girth",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T207_EGCubicBipartiteForcing.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "bipartite_cubic_even",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "cubic_edges",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cycle_dim",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "k33_dim",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "k33_space",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "heawood_dim",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "heawood_space",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "tc_dim",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "class1_matchings",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "matching_size_6",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "matching_size_14",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "matching_size_30",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "matchings_cover_k33",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "matchings_cover_heawood",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "matchings_cover_tc",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "even_pow2_4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "even_pow2_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "even_pow2_16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "bip_g4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "bip_g6",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "bip_g8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "377a23912e0f6f05ec09fcbe5fcb0479068c536de79b6d8a7632c857ad49a698"
+}

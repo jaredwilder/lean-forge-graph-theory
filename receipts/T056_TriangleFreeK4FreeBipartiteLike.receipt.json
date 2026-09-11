@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T056_TriangleFreeK4FreeBipartiteLike.lean",
+  "sha256": "ca0af7875c753234541fc9d709de734a5710abc94948229a12d8c8a9fbf78302",
+  "source_sha256": "ca0af7875c753234541fc9d709de734a5710abc94948229a12d8c8a9fbf78302",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 3.1,
+  "timestamp": "2026-08-28T14:47:07Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-tf-k4free-bipartite",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T056_TriangleFreeK4FreeBipartiteLike.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.3,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_edge_disjoint_neighborhoods",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_dist1_no_common",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_k4free_sparse_distance2",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "8b16b9d167d41cbe5d1673e4bdc8b07fe086c741fea97ea8d79f7930afe1de4b"
+}

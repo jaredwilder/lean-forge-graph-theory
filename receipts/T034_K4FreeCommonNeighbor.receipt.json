@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T034_K4FreeCommonNeighbor.lean",
+  "sha256": "2a568d93a5e63f68c2303a89fd95b45672af34404cae88cc3a879ba1800d1782",
+  "source_sha256": "2a568d93a5e63f68c2303a89fd95b45672af34404cae88cc3a879ba1800d1782",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:45:18Z",
+  "theorem_count": 4,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 4,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-k4free-common-neighbor",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T034_K4FreeCommonNeighbor.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 1.9,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "k4free_triangle_common_empty",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "k4free_common_neighbors_independent",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "40ed7c2fe55214008317f05486095a7a4d1b1389b1afe352afb44545eeac007a"
+}

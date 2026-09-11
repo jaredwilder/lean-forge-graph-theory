@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T152_C4FreeK4FreeCompositionDistanceRigidity.lean",
+  "sha256": "c55686a558fbe1393291abbfc9841478b6920c2d6419efcc142da3d58d9623cc",
+  "source_sha256": "c55686a558fbe1393291abbfc9841478b6920c2d6419efcc142da3d58d9623cc",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.5,
+  "timestamp": "2026-08-28T14:54:20Z",
+  "theorem_count": 5,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 5,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "COMP-T122+T130+T134-distance-rigidity",
+  "semantic_coverage": "L2-L3-distance-path-uniqueness",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T152_C4FreeK4FreeCompositionDistanceRigidity.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 3.6,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d3_double_shortcut",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d3_reverse_shortcut",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d2_unique_path",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "aa5afe189f964d3805bb948aad13667418cdc160364dd2487ebeb2809d015dae"
+}

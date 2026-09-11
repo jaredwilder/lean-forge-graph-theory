@@ -1,0 +1,127 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T019_NearDyadicStructure.lean",
+  "sha256": "dc1675693831c7c03743605c49548aeecb415e4e75ab5dc01290b48f90e21e46",
+  "source_sha256": "dc1675693831c7c03743605c49548aeecb415e4e75ab5dc01290b48f90e21e46",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:43:32Z",
+  "theorem_count": 9,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 9,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-near-dyadic-structure",
+  "semantic_coverage": "arithmetic-only",
+  "missing_semantics": "graph cycle existence, cubic vertex structure",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T019_NearDyadicStructure.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "near_dyadic_odd",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_gap",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_ge_3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_ge_5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_injective",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_not_dyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_strict_mono",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_count_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_count_16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "3e3b757b8a99f4f4cf06da812b77ead6ac56cb7b67cdfdabd7ecff9e2c25eea1"
+}

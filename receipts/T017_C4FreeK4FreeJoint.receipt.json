@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T017_C4FreeK4FreeJoint.lean",
+  "sha256": "789dae2e6e2a78959c3cebf86edbb6ce6edba0fd6c9fc8718f8eee55b5c8e162",
+  "source_sha256": "789dae2e6e2a78959c3cebf86edbb6ce6edba0fd6c9fc8718f8eee55b5c8e162",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:43:23Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-c4free-k4free-joint",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T017_C4FreeK4FreeJoint.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.4,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "joint_neighborhood_matching",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "k4free_link_no_triangle",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "joint_edge_isolated",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "1b457a7209b96e46e88f8bef1137ee729e08a64b61c48cb8447d265b8bd0fdb5"
+}

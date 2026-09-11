@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T164_C4FreeK4FreeCompositionBlockDecompositionKFour.lean",
+  "sha256": "27586bbc4790c5a49e8cad2d8428f95429e811e3e825c197813f6015d2035a74",
+  "source_sha256": "27586bbc4790c5a49e8cad2d8428f95429e811e3e825c197813f6015d2035a74",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:55:11Z",
+  "theorem_count": 5,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 5,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "COMP-K4MINUS-C4-EXTRACTION",
+  "semantic_coverage": "K4minus-K4-two-triangles-shared-edge-C4",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T164_C4FreeK4FreeCompositionBlockDecompositionKFour.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 1.9,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_no_diamond",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_no_k4",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_edge_in_one_triangle",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "0c8df161b4c45505f047b618f47ec5575db55244c7e2c95afa92e690d157d04e"
+}

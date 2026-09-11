@@ -1,0 +1,99 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T219_CH3DirectedFourCycleCountDouble.lean",
+  "sha256": "de2b7acbf2fa18a2050b3f94355afd5ece13f6e493350b60e477d84cf0164bc3",
+  "source_sha256": "de2b7acbf2fa18a2050b3f94355afd5ece13f6e493350b60e477d84cf0164bc3",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 1.9,
+  "timestamp": "2026-08-28T14:58:54Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "UNCLASSIFIED",
+  "card_id": null,
+  "semantic_coverage": null,
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T219_CH3DirectedFourCycleCountDouble.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "directed_four_cycle_count_double_double_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "directed_four_cycle_count_double_half_bound_d1",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "directed_four_cycle_count_double_half_bound_d2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "directed_four_cycle_count_double_half_bound_d3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "directed_four_cycle_count_double_half_bound_d5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "directed_four_cycle_count_double_half_bound_d10",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "98f7948c95e9a314798e2cccd0f564b81981c8acb8f37c60df187d600c459471"
+}

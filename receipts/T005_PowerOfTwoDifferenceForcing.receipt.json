@@ -1,0 +1,99 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T005_PowerOfTwoDifferenceForcing.lean",
+  "sha256": "335643184a41b88729eca4481cb5f3a4b776ca6f5f92270c17d6024957696627",
+  "source_sha256": "335643184a41b88729eca4481cb5f3a4b776ca6f5f92270c17d6024957696627",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:42:14Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "CONSTRUCTIVE_REFUTATION",
+  "card_id": "EG-pow2-diff-forcing-false",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T005_PowerOfTwoDifferenceForcing.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "pow2_mod3_ne_zero",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pow2_not_div_by_3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "mul3_diff_div3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "mul3_diff_not_pow2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pow2_avoidance_set_injective",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pow2_avoidance_set_avoids",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "56bbd97bf31c71b8d412c9c3bff1ff847a2fa64f49f0cb9b3d8a9e2fbfdab610"
+}

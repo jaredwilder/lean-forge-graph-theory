@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T057_C4FreeTriangleVertexPartition.lean",
+  "sha256": "d625b3528c516bc9368aac6a8cd516932030d92c8e5d8a3e91979215c676dce3",
+  "source_sha256": "d625b3528c516bc9368aac6a8cd516932030d92c8e5d8a3e91979215c676dce3",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3,
+  "timestamp": "2026-08-28T14:47:11Z",
+  "theorem_count": 4,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 4,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-c4free-triangle-vertex-partition",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T057_C4FreeTriangleVertexPartition.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_no_book_at_edge",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_no_book_at_other_edge",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "c50b6939a2f471489fe24a6781d7d401a35d879c2dc8e5c11531406ba65e22c7"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T046_C4FreeWedgeUniqueness.lean",
+  "sha256": "111dfced9e0752a905700c741a0227fe741e54c303f4972e19b0fbbc7afd778e",
+  "source_sha256": "111dfced9e0752a905700c741a0227fe741e54c303f4972e19b0fbbc7afd778e",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:46:20Z",
+  "theorem_count": 5,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 5,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-c4free-wedge-uniqueness",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T046_C4FreeWedgeUniqueness.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_unique_wedge",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_unique_intermediate",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_neighbor_link_disjoint",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "33d37e0c875c80f9dffdcb18a8faeadf8b1c9bc7e7e934e0d166564dc83b9460"
+}

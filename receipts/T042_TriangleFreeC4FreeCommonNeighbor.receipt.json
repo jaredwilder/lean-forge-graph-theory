@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T042_TriangleFreeC4FreeCommonNeighbor.lean",
+  "sha256": "061bbe3366d501cc7e9a2e07afb33a0694690822d69a6fb6992f104edb916539",
+  "source_sha256": "061bbe3366d501cc7e9a2e07afb33a0694690822d69a6fb6992f104edb916539",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:46:03Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-tf-c4f-codegree-one",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T042_TriangleFreeC4FreeCommonNeighbor.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 1.9,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_adjacent_no_common",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4f_nonadj_unique_common",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_c4f_codegree_at_most_one",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "8ace9d2678c45c4300147297415ccac892f6956b26676b738255c01fa22cb82e"
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T085_C4FreeK4FreePathForcing.lean",
+  "sha256": "1f966c9a59efdecfa1c94731ebe92a648532d23ac02c976a31d7d7b015b23e0c",
+  "source_sha256": "1f966c9a59efdecfa1c94731ebe92a648532d23ac02c976a31d7d7b015b23e0c",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:49:34Z",
+  "theorem_count": 4,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 4,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-c4free-path-forcing",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T085_C4FreeK4FreePathForcing.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_unique_path_length2",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_shared_first_different_second",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "5581b49664d61ece4c66c1f994b1a799b9e751853396976e090ca6a89f21962e"
+}

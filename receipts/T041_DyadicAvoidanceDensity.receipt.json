@@ -1,0 +1,163 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T041_DyadicAvoidanceDensity.lean",
+  "sha256": "7b653f9b70c50444b9f418a604a8a8b77daaf73918d98460f4d19203ce1d8f81",
+  "source_sha256": "7b653f9b70c50444b9f418a604a8a8b77daaf73918d98460f4d19203ce1d8f81",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3,
+  "timestamp": "2026-08-28T14:45:59Z",
+  "theorem_count": 13,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 13,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-dyadic-avoidance-density",
+  "semantic_coverage": "density-arithmetic",
+  "missing_semantics": "cycle length existence",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T041_DyadicAvoidanceDensity.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.4,
+    "declarations": [
+      {
+        "declaration": "density_N8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "density_N16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "density_N32",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "density_N64",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "interval_density_k1",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "interval_density_k2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "interval_density_k3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "forbidden_gap",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "consecutive_at_most_one_dyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_consecutive_two_available",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "ratio_k3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "ratio_k4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "ratio_k5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "5467409823f607def160f7a4af2d439fabb54a65b68964bf852ed5e228d203a4"
+}

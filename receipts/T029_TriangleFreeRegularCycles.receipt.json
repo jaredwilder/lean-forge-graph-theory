@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T029_TriangleFreeRegularCycles.lean",
+  "sha256": "2dba4426699fa54919bbc85bcc3818bd9ba622454c80b30989e7455ffcaa7ccc",
+  "source_sha256": "2dba4426699fa54919bbc85bcc3818bd9ba622454c80b30989e7455ffcaa7ccc",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 7.7,
+  "timestamp": "2026-08-28T14:44:57Z",
+  "theorem_count": 5,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 5,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-triangle-free-regular-cycles",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T029_TriangleFreeRegularCycles.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 34.9,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "triangle_free_independent_link",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_c4f_no_common_neighbor",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "95e870f9f49f90675a29dba9caf2235f5faecfe9dcfcf1e49ebf3cc29fbac3bf"
+}

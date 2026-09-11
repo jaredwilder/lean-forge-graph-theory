@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T052_C4FreeAdjacencyConstraint.lean",
+  "sha256": "92f48b0bfcda331cbee83f4993ea497b3c99107c5f6952359103e70a4c6e2215",
+  "source_sha256": "92f48b0bfcda331cbee83f4993ea497b3c99107c5f6952359103e70a4c6e2215",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:46:46Z",
+  "theorem_count": 5,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 5,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-c4free-adjacency-constraint",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T052_C4FreeAdjacencyConstraint.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_second_nbr_unique_intermediary",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "tf_c4f_second_nbr_not_adjacent",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "8e5f6b401fd747ec641fc835ec1264fbccb3379d4a5bc7672eb7bd6ecc5476e3"
+}

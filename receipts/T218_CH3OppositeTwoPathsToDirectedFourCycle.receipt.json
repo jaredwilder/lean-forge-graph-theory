@@ -1,0 +1,67 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T218_CH3OppositeTwoPathsToDirectedFourCycle.lean",
+  "sha256": "6e694a7507abb2db8899a603eb2b3fb39b200af9a3cafaf5f5dd7a5c8088fced",
+  "source_sha256": "6e694a7507abb2db8899a603eb2b3fb39b200af9a3cafaf5f5dd7a5c8088fced",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 1.9,
+  "timestamp": "2026-08-28T14:58:50Z",
+  "theorem_count": 2,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 2,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "UNCLASSIFIED",
+  "card_id": null,
+  "semantic_coverage": null,
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T218_CH3OppositeTwoPathsToDirectedFourCycle.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "opposite_two_paths_to_directed_four_cycle_closed_walk_length",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "opposite_two_paths_to_directed_four_cycle_cycle_mod",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "f91142ea4b404e5295506f0da47e0786852d8ba935f41b498f68da00ca36cc5f"
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T043_C4FreeEdgeTrianglePartition.lean",
+  "sha256": "8829c8c18674708c950bbad80897cf50e1a4248b5c58478e42c3312fbfda41d1",
+  "source_sha256": "8829c8c18674708c950bbad80897cf50e1a4248b5c58478e42c3312fbfda41d1",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:46:07Z",
+  "theorem_count": 5,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 5,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-c4free-edge-triangle-partition",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T043_C4FreeEdgeTrianglePartition.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.4,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_edge_unique_triangle",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_triangle_exclusive_neighbor",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "triangle_count_degree_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "5a7fcaf16bc8829e9097fffdc844a564100d127cd77a10200ea1148750939afe"
+}

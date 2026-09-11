@@ -1,0 +1,132 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T028_MinimumOrderBound.lean",
+  "sha256": "37f12f321b2110282621fcea9aadc3aa954eb51348389b9a9e6aa00a49a7d24f",
+  "source_sha256": "37f12f321b2110282621fcea9aadc3aa954eb51348389b9a9e6aa00a49a7d24f",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3,
+  "timestamp": "2026-08-28T14:44:14Z",
+  "theorem_count": 11,
+  "assumption_return_count": 3,
+  "assumption_returns": [
+    "cycle_vertex_count",
+    "min_order_for_lengths",
+    "min_order_max_cycle"
+  ],
+  "substantive_count": 8,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-minimum-order-bound",
+  "semantic_coverage": "order-bounds",
+  "missing_semantics": "graph existence, cycle spectrum formalization",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T028_MinimumOrderBound.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 3.8,
+    "declarations": [
+      {
+        "declaration": "cycle_vertex_count",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "disjoint_cycles_vertices",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "cubic_minimum",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "min_order_for_lengths",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "min_order_max_cycle",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "min_order_k2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "min_order_k3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "min_order_k4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "petersen_girth",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "petersen_order",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "eg_cycle_count_lower",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "a2cb04d641d6e8538392bd87f386fee94b901ddc5d2a9e417aa7b3e643e5b10c"
+}

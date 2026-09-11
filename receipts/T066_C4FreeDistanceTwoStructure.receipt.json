@@ -1,0 +1,66 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T066_C4FreeDistanceTwoStructure.lean",
+  "sha256": "68c329d4a2adaf791e9a0ed20f0aed74505d59c5670b5128be4f0f55113a0099",
+  "source_sha256": "68c329d4a2adaf791e9a0ed20f0aed74505d59c5670b5128be4f0f55113a0099",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:48:09Z",
+  "theorem_count": 4,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 4,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-c4free-distance-two",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T066_C4FreeDistanceTwoStructure.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d2_no_cross_edge",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_d2_same_part_no_shared_d3",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "6b4df817cc8fc4e84d7d815d6add8138d77613861e08c616995392926050d805"
+}

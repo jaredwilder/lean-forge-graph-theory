@@ -1,0 +1,188 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T078_C4FreeK4FreeMinimumCycleLengths.lean",
+  "sha256": "3fdce1696ade1bac8dbf32a220820b4f7ed216fd3c344db0931a13d339fff842",
+  "source_sha256": "3fdce1696ade1bac8dbf32a220820b4f7ed216fd3c344db0931a13d339fff842",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:49:03Z",
+  "theorem_count": 16,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 16,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-minimum-cycle-lengths",
+  "semantic_coverage": "spectrum-arithmetic",
+  "missing_semantics": "graph cycle existence",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T078_C4FreeK4FreeMinimumCycleLengths.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.5,
+    "declarations": [
+      {
+        "declaration": "length_3_nondyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "length_5_nondyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "length_6_nondyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "length_7_nondyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "length_9_nondyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "length_10_nondyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dyadic_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dyadic_16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dyadic_32",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "nondyadic_below_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "nondyadic_below_16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "nondyadic_below_32",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pigeonhole_n20",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pigeonhole_n40",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "counting_not_enough_n20",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "ratio_n34",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "bcadc1e5d45a2c65cc6ced18f9d9c52dba9a2b54e2bc8afe0634e00dca9696ac"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T007_StableTriangleBookSterility.lean",
+  "sha256": "77661ba500e73a92a7f6570f86295d90cbab24adf0e36f9da119e5ed011ed870",
+  "source_sha256": "77661ba500e73a92a7f6570f86295d90cbab24adf0e36f9da119e5ed011ed870",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:42:23Z",
+  "theorem_count": 4,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 4,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "PARTIAL",
+  "card_id": "E595-T11-stable-triangle-book",
+  "semantic_coverage": "local-lemmas-only",
+  "missing_semantics": "tc(B)=2 conclusion, nonemptiness of W",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T007_StableTriangleBookSterility.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "triangle_needs_two_colors",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "book_witness_stable",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "spine_must_differ",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "7c35b071a39544c1c22646daf98662894b96d0d0dc5e4efa22d808641e98d97e"
+}

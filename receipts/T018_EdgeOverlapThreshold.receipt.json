@@ -1,0 +1,91 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T018_EdgeOverlapThreshold.lean",
+  "sha256": "6486ae4adb9bbe346ddc4730347ab91aedf508bbc8ce81cfc40ec88863fe49c6",
+  "source_sha256": "6486ae4adb9bbe346ddc4730347ab91aedf508bbc8ce81cfc40ec88863fe49c6",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.4,
+  "timestamp": "2026-08-28T14:43:28Z",
+  "theorem_count": 6,
+  "assumption_return_count": 3,
+  "assumption_returns": [
+    "edge_overlap_threshold",
+    "dyadic_overlap_threshold",
+    "sparse_overlap"
+  ],
+  "substantive_count": 3,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-edge-overlap-threshold",
+  "semantic_coverage": "counting-only",
+  "missing_semantics": "graph cycle formalization, edge set cardinality",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T018_EdgeOverlapThreshold.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "edge_overlap_threshold",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "disjoint_cycle_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dyadic_overlap_threshold",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "sparse_overlap",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "shared_edge_bounds",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "overlap_symdiff_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "3cdcc9271124f03f5443ae507eb239169facfe1c10128eec9d19292980a909a5"
+}

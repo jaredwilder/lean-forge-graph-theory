@@ -1,0 +1,76 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T001_C4FreeCubicNeighborhood.lean",
+  "sha256": "d25c80c23057b341a9138ec1664970815c3ca3538a2499f43504770ad3c36d7e",
+  "source_sha256": "d25c80c23057b341a9138ec1664970815c3ca3538a2499f43504770ad3c36d7e",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:41:53Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-cubic-neighborhood-matching",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T001_C4FreeCubicNeighborhood.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 1.9,
+    "declarations": [
+      {
+        "declaration": "ne_symm",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_cubic_no_double_adj",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_cubic_no_double_adj_b",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_cubic_no_double_adj_c",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_cubic_neighborhood_matching",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "37ea9d2f94fec4e09352e579af1d5d550ede3367b996505347bc969ffc91b031"
+}

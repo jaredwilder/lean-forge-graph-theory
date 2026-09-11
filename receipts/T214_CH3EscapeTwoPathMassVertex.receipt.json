@@ -1,0 +1,109 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T214_CH3EscapeTwoPathMassVertex.lean",
+  "sha256": "a4e22e8f2a988a737bf36f4c8fde681e4e43f92d45e74a990a63f18bab8fd43a",
+  "source_sha256": "a4e22e8f2a988a737bf36f4c8fde681e4e43f92d45e74a990a63f18bab8fd43a",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:58:34Z",
+  "theorem_count": 8,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 8,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "UNCLASSIFIED",
+  "card_id": null,
+  "semantic_coverage": null,
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T214_CH3EscapeTwoPathMassVertex.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "escape_two_path_mass_vertex_outneighbor_arcs_skip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_internal_arcs_bound_skip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_escape_mass_vertex_d1",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_escape_mass_vertex_d2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_escape_mass_vertex_d3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_escape_mass_vertex_d5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_escape_mass_vertex_d10",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "escape_two_path_mass_vertex_escape_mass_vertex_d100",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "038948a4388d18c23efa3ac5a9cde554b45cae86c511a42e266ac80f63908857"
+}

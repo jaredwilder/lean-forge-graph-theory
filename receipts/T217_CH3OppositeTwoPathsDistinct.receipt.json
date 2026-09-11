@@ -1,0 +1,75 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T217_CH3OppositeTwoPathsDistinct.lean",
+  "sha256": "0dd8ccc39610340e3efe1fef3c1a104c3eb95adf10dc9e8606cfc6aacef244ce",
+  "source_sha256": "0dd8ccc39610340e3efe1fef3c1a104c3eb95adf10dc9e8606cfc6aacef244ce",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:58:46Z",
+  "theorem_count": 3,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 3,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "UNCLASSIFIED",
+  "card_id": null,
+  "semantic_coverage": null,
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T217_CH3OppositeTwoPathsDistinct.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "opposite_two_paths_distinct_four_distinct_vertices",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "opposite_two_paths_distinct_no_loop_distinct",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "opposite_two_paths_distinct_no_digon_distinct",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "7a2175664853855bcd3a9ca32457552d422b5f43a398c59b4b74f33a18062ee6"
+}

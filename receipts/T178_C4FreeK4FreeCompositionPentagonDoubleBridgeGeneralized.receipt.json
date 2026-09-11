@@ -1,0 +1,109 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T178_C4FreeK4FreeCompositionPentagonDoubleBridgeGeneralized.lean",
+  "sha256": "7893e817849c6873b4b63959d63f49d29564c423c5a09ef4663ead18930b132c",
+  "source_sha256": "7893e817849c6873b4b63959d63f49d29564c423c5a09ef4663ead18930b132c",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:56:13Z",
+  "theorem_count": 9,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 9,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "COMP-DOUBLE-BRIDGE-GEN",
+  "semantic_coverage": "adjacent-endpoint-double-bridge-C4",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T178_C4FreeK4FreeCompositionPentagonDoubleBridgeGeneralized.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_double_bridge_adjacent",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "five_not_power2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "bridge_distance_sum",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "c4_bridge_length",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_degree",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "pentagon_edges_per_vertex",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "external_edges_per_vertex",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "e07c0c5873429698ddd129499fc52c835e947a79ca3a4487a9f681c7b1779bd2"
+}

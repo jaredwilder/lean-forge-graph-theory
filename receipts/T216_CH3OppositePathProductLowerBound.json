@@ -1,0 +1,16 @@
+{
+  "file": "T216_CH3OppositePathProductLowerBound.lean",
+  "status": "PASS",
+  "sha256": "91d9b0f3fd4cec4d592b4fb02d2d931b2c8e86d0b0336b793a5d1f2ba2b97b7a",
+  "theorem_count": 10,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-opposite_path_product_lower_bound-51f7b436",
+  "lean_name": "opposite_path_product_lower_bound",
+  "domain": "directed-graph",
+  "compile_seconds": 0.91,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

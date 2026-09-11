@@ -1,0 +1,75 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T003_EqualExponentFanKill.lean",
+  "sha256": "d57cb15e05ae7ae9f81ec750e650c8a04d26c190998bd751d2610fe4aae96aa1",
+  "source_sha256": "d57cb15e05ae7ae9f81ec750e650c8a04d26c190998bd751d2610fe4aae96aa1",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:42:05Z",
+  "theorem_count": 3,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 3,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-equal-exponent-fan-kill",
+  "semantic_coverage": "arithmetic-only",
+  "missing_semantics": "graph path structure, fan decomposition",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T003_EqualExponentFanKill.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 6.2,
+    "declarations": [
+      {
+        "declaration": "equal_exponent_fan_kill_arithmetic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "fan_kill_general",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "fan_kill_dyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "9845a269939cd73cb5ee1f4417e629d48553d6805ce9487b610997f9b494d227"
+}

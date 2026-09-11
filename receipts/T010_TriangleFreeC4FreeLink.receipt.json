@@ -1,0 +1,61 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T010_TriangleFreeC4FreeLink.lean",
+  "sha256": "2dbee1c22446f149d0137fab3b4324ee46e33367147776812a40455433c3e6c9",
+  "source_sha256": "2dbee1c22446f149d0137fab3b4324ee46e33367147776812a40455433c3e6c9",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:42:39Z",
+  "theorem_count": 3,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 3,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "PARTIAL",
+  "card_id": "E595-T9-omitted-edge-witness",
+  "semantic_coverage": "stability-core-only",
+  "missing_semantics": "nonemptiness of W_H(xy), maximality",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T010_TriangleFreeC4FreeLink.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.2,
+    "declarations": [
+      {
+        "declaration": "witness_set_stable",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "witness_gives_triangle",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "cb2da88ab6c05ff34b7839748872726f544eb8a47fe88ef0ae1b8eef388729d7"
+}

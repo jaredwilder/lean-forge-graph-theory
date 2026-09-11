@@ -1,0 +1,16 @@
+{
+  "file": "T219_CH3DirectedFourCycleCountDouble.lean",
+  "status": "PASS",
+  "sha256": "de2b7acbf2fa18a2050b3f94355afd5ece13f6e493350b60e477d84cf0164bc3",
+  "theorem_count": 6,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-directed_four_cycle_count_double-72f2f540",
+  "lean_name": "directed_four_cycle_count_double",
+  "domain": "directed-graph",
+  "compile_seconds": 0.59,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

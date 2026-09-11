@@ -1,0 +1,16 @@
+{
+  "file": "T218_CH3OppositeTwoPathsToDirectedFourCycle.lean",
+  "status": "PASS",
+  "sha256": "6e694a7507abb2db8899a603eb2b3fb39b200af9a3cafaf5f5dd7a5c8088fced",
+  "theorem_count": 2,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-opposite_two_paths_to_directed_four_cycle-dc849ccb",
+  "lean_name": "opposite_two_paths_to_directed_four_cycle",
+  "domain": "directed-graph",
+  "compile_seconds": 0.63,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

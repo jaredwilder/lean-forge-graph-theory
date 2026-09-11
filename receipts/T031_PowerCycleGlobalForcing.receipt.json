@@ -1,0 +1,174 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T031_PowerCycleGlobalForcing.lean",
+  "sha256": "2b11c9144f5cdfa742cd10dbacdb0f155606b51a4a0fe0c756394590c5fa03ae",
+  "source_sha256": "2b11c9144f5cdfa742cd10dbacdb0f155606b51a4a0fe0c756394590c5fa03ae",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:45:06Z",
+  "theorem_count": 17,
+  "assumption_return_count": 1,
+  "assumption_returns": [
+    "contradiction_shape"
+  ],
+  "substantive_count": 16,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-global-forcing",
+  "semantic_coverage": "forcing-arithmetic",
+  "missing_semantics": "graph structure, cycle enumeration",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T031_PowerCycleGlobalForcing.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "forbidden_count_8",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "forbidden_count_16",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "forbidden_count_32",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "forbidden_count_64",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "available_8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "available_16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "available_32",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_splits_k2",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_splits_k3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_splits_k4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_positive_k3",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_positive_k4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_positive_k5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "safe_positive_k6",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_forcing_n8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_forcing_n16",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "contradiction_shape",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "bf44f7c8fc94f484f2e0c2d3dffd69c34afa090d29c3dd441608be12673868c4"
+}

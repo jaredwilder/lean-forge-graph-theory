@@ -1,0 +1,108 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T020_CubicNeighborhoodDegreeSum.lean",
+  "sha256": "76d4030d2e83f3e651dfde165f8db97d25fd7399442f22bb098f48434c2ad53a",
+  "source_sha256": "76d4030d2e83f3e651dfde165f8db97d25fd7399442f22bb098f48434c2ad53a",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:43:36Z",
+  "theorem_count": 8,
+  "assumption_return_count": 1,
+  "assumption_returns": [
+    "regular_link_size"
+  ],
+  "substantive_count": 7,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-cubic-degree-sum",
+  "semantic_coverage": "counting-only",
+  "missing_semantics": "graph regularity, induced subgraph",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T020_CubicNeighborhoodDegreeSum.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "cubic_link_edge_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_link_degree_sum",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "regular_link_size",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "triangles_through_vertex",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_triangle_bound",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "quartic_triangle_bound",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "cubic_total_triangle_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "triangle_edge_fraction",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "ee765cf524037810510800b9ef1fb44dae90009d1279ae72b129dbe4a4b51f07"
+}

@@ -1,0 +1,16 @@
+{
+  "file": "T217_CH3OppositeTwoPathsDistinct.lean",
+  "status": "PASS",
+  "sha256": "0dd8ccc39610340e3efe1fef3c1a104c3eb95adf10dc9e8606cfc6aacef244ce",
+  "theorem_count": 3,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-opposite_two_paths_distinct-4be5cf60",
+  "lean_name": "opposite_two_paths_distinct",
+  "domain": "directed-graph",
+  "compile_seconds": 0.6,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

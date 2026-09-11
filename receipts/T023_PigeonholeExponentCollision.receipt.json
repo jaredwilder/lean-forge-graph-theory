@@ -1,0 +1,116 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T023_PigeonholeExponentCollision.lean",
+  "sha256": "6ae5a33b37c47d674f2f9fb5182956ac78a7f19f2a18243453eef5c4997523fb",
+  "source_sha256": "6ae5a33b37c47d674f2f9fb5182956ac78a7f19f2a18243453eef5c4997523fb",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.6,
+  "timestamp": "2026-08-28T14:43:52Z",
+  "theorem_count": 10,
+  "assumption_return_count": 2,
+  "assumption_returns": [
+    "pigeonhole_nat",
+    "exponent_collision"
+  ],
+  "substantive_count": 8,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-pigeonhole-exponent-collision",
+  "semantic_coverage": "counting-backbone",
+  "missing_semantics": "Fin-indexed function, cycle enumeration",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T023_PigeonholeExponentCollision.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.6,
+    "declarations": [
+      {
+        "declaration": "pigeonhole_nat",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "exponent_bands_3_8",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "exponent_bands_3_16",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "exponent_bands_3_32",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "band_size",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "exponent_collision",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "same_band_diff_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "same_band_leading",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "mersenne_range",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "mersenne_collision",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "3ec4081c1bb7c1bcf17321b5b1684c62fcd400b4bb546a64f092205785e0f096"
+}

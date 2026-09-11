@@ -1,0 +1,61 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T092_K4FreeTriangleSharesAtMostEdge.lean",
+  "sha256": "c4fbe2592bf889278c7c7eec098aa31245bd24605334517ab0e525a522c1a789",
+  "source_sha256": "c4fbe2592bf889278c7c7eec098aa31245bd24605334517ab0e525a522c1a789",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.1,
+  "timestamp": "2026-08-28T14:50:04Z",
+  "theorem_count": 3,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 3,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-k4free-triangle-dominator",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T092_K4FreeTriangleSharesAtMostEdge.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "k4free_no_triangle_dominator",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "9a9b17eb683fb9750df5f4ab320b6afbd47c18e6b02dbca3b006704132dc3a80"
+}

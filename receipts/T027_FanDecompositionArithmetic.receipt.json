@@ -1,0 +1,113 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T027_FanDecompositionArithmetic.lean",
+  "sha256": "2c333b0f5f98be9bebf9b207827f227c53c8e97dcd603edae1168cef7500f9ac",
+  "source_sha256": "2c333b0f5f98be9bebf9b207827f227c53c8e97dcd603edae1168cef7500f9ac",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:44:08Z",
+  "theorem_count": 8,
+  "assumption_return_count": 1,
+  "assumption_returns": [
+    "disjoint_fan_bound"
+  ],
+  "substantive_count": 7,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-fan-decomposition",
+  "semantic_coverage": "fan-arithmetic",
+  "missing_semantics": "graph fan decomposition, path formalization",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T027_FanDecompositionArithmetic.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "fan_width_bound",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "disjoint_fan_bound",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "cubic_fan_splits",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "disjoint_path_cycle",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "three_path_candidates",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "fan_2_cycle",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "equal_exponent_fan_double",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "equal_exponent_fan_upper",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "2f990ddc097dccb835f2c98216b1f38200e660fb8120823b1c5dd33f90c88e2e"
+}

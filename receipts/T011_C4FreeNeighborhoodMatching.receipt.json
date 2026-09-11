@@ -1,0 +1,85 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T011_C4FreeNeighborhoodMatching.lean",
+  "sha256": "07da2e356cede00967fb945edfa5cf8ff4c5b929326dd75678811c6bdb7daba5",
+  "source_sha256": "07da2e356cede00967fb945edfa5cf8ff4c5b929326dd75678811c6bdb7daba5",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.2,
+  "timestamp": "2026-08-28T14:42:43Z",
+  "theorem_count": 7,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 7,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-c4free-neighborhood-general",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T011_C4FreeNeighborhoodMatching.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_neighbors_no_common_adj",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "c4free_neighborhood_matching",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_cubic_case",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_edge_disjoint_triangles",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_triangle_edges_matching",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "598d7d1e68109ec11830bba555e495e78f9e2b6a4d6057cc38ce30ccccd67318"
+}

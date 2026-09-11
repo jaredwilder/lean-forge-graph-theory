@@ -1,0 +1,118 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T022_TriangleBookDecomposition.lean",
+  "sha256": "5fbe776d643df99f2610623046699e8b1f1c6f07ab3814cd71955c13006bb050",
+  "source_sha256": "5fbe776d643df99f2610623046699e8b1f1c6f07ab3814cd71955c13006bb050",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3,
+  "timestamp": "2026-08-28T14:43:46Z",
+  "theorem_count": 9,
+  "assumption_return_count": 4,
+  "assumption_returns": [
+    "book_page_count",
+    "book_edge_count",
+    "bare_path_length",
+    "total_cycle_variety"
+  ],
+  "substantive_count": 5,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-triangle-book-decomposition",
+  "semantic_coverage": "decomposition-arithmetic",
+  "missing_semantics": "graph triangle formalization, book structure",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T022_TriangleBookDecomposition.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.8,
+    "declarations": [
+      {
+        "declaration": "book_page_count",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "book_edge_count",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "bare_edge_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_book_cases",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "bare_path_length",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "total_cycle_variety",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "cubic_one_page_variety",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_zero_page_bare_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "book_exhaustive",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "d4b4e7826f7ea47ca90578d89f3904d73fc9cf4911501220afebd1d1e876cb07"
+}

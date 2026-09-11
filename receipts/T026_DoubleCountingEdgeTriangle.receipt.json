@@ -1,0 +1,136 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T026_DoubleCountingEdgeTriangle.lean",
+  "sha256": "a65227024d9604dbcc0120909eea1fe983358da4d66c286834786be0fc854ee1",
+  "source_sha256": "a65227024d9604dbcc0120909eea1fe983358da4d66c286834786be0fc854ee1",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": false,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:44:04Z",
+  "theorem_count": 11,
+  "assumption_return_count": 2,
+  "assumption_returns": [
+    "handshaking",
+    "triangles_per_vertex"
+  ],
+  "substantive_count": 9,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-double-counting",
+  "semantic_coverage": "counting-identities",
+  "missing_semantics": "graph edge set, triangle counting formalization",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": false
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T026_DoubleCountingEdgeTriangle.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.1,
+    "declarations": [
+      {
+        "declaration": "handshaking",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "regular_edge_count",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_edge_even",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "triangle_bound_from_edges",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "cubic_triangle_from_edges",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "triangles_per_vertex",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "triangle_vertex_sum",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "c4free_edges_n8",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "c4free_edges_n10",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "kst_concrete_4",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "kst_concrete_5",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "8fdde6d066a3619259296dfbe92c4c213a662775bc3d5420266d4450c35a628f"
+}

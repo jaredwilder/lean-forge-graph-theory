@@ -1,0 +1,140 @@
+{
+  "forge_version": "2.0.0",
+  "lean_version": "4.32.2",
+  "total_files": 11,
+  "total_verified": 11,
+  "total_failed": 0,
+  "build_date": "2026-08-06",
+  "source_inventory": "06-ALL-THEOREM-INVENTORY.json",
+  "architecture": "standalone (no Mathlib)",
+  "authority_breakdown": {
+    "FULL_FORMALIZATION": 2,
+    "STRUCTURAL_CORE": 1,
+    "CONSTRUCTIVE_REFUTATION": 1,
+    "ARITHMETIC_KERNEL": 5,
+    "PARTIAL": 2,
+    "REJECTED": 0
+  },
+  "theorems": [
+    {
+      "file": "T001_C4FreeCubicNeighborhood.lean",
+      "authority_class": "FULL_FORMALIZATION",
+      "card_id": "EG-cubic-neighborhood-matching",
+      "content": "In a C4-free graph, the induced subgraph on 3 neighbors of a cubic vertex has max degree <= 1",
+      "proof_technique": "Contradiction via exhibiting 4-cycle",
+      "semantic_coverage": "complete",
+      "missing_semantics": null,
+      "theorems_count": 4
+    },
+    {
+      "file": "T002_ValidSuppressionNeighbor.lean",
+      "authority_class": "FULL_FORMALIZATION",
+      "card_id": "EG-suppression-neighbor-exists",
+      "content": "At every cubic vertex in a C4-free graph, one neighbor is nonadjacent to both others",
+      "proof_technique": "Case split + C4-free contradiction (corollary of T001)",
+      "semantic_coverage": "complete",
+      "missing_semantics": null,
+      "theorems_count": 2
+    },
+    {
+      "file": "T003_EqualExponentFanKill.lean",
+      "authority_class": "ARITHMETIC_KERNEL",
+      "card_id": "EG-equal-exponent-fan-kill",
+      "content": "Two paths of length 2^k-1 through center -> cycle of length 2^(k+1)",
+      "proof_technique": "Nat arithmetic (omega)",
+      "semantic_coverage": "arithmetic-only",
+      "missing_semantics": "graph path structure, fan decomposition",
+      "theorems_count": 3
+    },
+    {
+      "file": "T004_SymDiffLedger.lean",
+      "authority_class": "ARITHMETIC_KERNEL",
+      "card_id": "EG-sym-diff-ledger",
+      "content": "Two (q+1)-cycles sharing m edges: sym-diff total = 2(q+1-m). Dyadic when s=q+1-2^j.",
+      "proof_technique": "Nat arithmetic (omega)",
+      "semantic_coverage": "arithmetic-only",
+      "missing_semantics": "graph cycle structure, edge set formalization",
+      "theorems_count": 4
+    },
+    {
+      "file": "T005_PowerOfTwoDifferenceForcing.lean",
+      "authority_class": "CONSTRUCTIVE_REFUTATION",
+      "card_id": "EG-pow2-diff-forcing-false",
+      "content": "NEGATIVE: Arbitrarily large sets avoid all power-of-two pairwise differences. Constructive: {3k}.",
+      "proof_technique": "Induction on 2^n mod 3 + divisibility",
+      "semantic_coverage": "complete",
+      "missing_semantics": null,
+      "theorems_count": 5
+    },
+    {
+      "file": "T006_EarBarrierArithmetic.lean",
+      "authority_class": "ARITHMETIC_KERNEL",
+      "card_id": "EG-ear-barrier",
+      "content": "Ear length p >= max(a, r-a) >= ceil(r/2). Connector h >= max(d, r-d).",
+      "proof_technique": "Nat arithmetic (omega + case split)",
+      "semantic_coverage": "arithmetic-only",
+      "missing_semantics": "graph ear decomposition, cycle structure",
+      "theorems_count": 6
+    },
+    {
+      "file": "T007_StableTriangleBookSterility.lean",
+      "authority_class": "PARTIAL",
+      "card_id": "E595-T11-stable-triangle-book",
+      "content": "Triangle book tc=2: any mono-coloring has mono-triangle; witnesses stable by K4-free",
+      "proof_technique": "Direct construction + K4-free contradiction",
+      "semantic_coverage": "local-lemmas-only",
+      "missing_semantics": "tc(B)=2 conclusion, nonemptiness of W",
+      "theorems_count": 4
+    },
+    {
+      "file": "T008_TwoCycleEarLengths.lean",
+      "authority_class": "ARITHMETIC_KERNEL",
+      "card_id": "EG-two-cycle-ear",
+      "content": "Ear of length p on arcs a, r-a gives cycles p+a and p+r-a",
+      "proof_technique": "Nat arithmetic (omega)",
+      "semantic_coverage": "arithmetic-only",
+      "missing_semantics": "graph ear/arc structure",
+      "theorems_count": 4
+    },
+    {
+      "file": "T009_GlobalExponentRepetition.lean",
+      "authority_class": "ARITHMETIC_KERNEL",
+      "card_id": "EG-global-exponent-repetition",
+      "content": "Pigeonhole backbone: M>B forces repetition. Exponent range arithmetic. Mersenne structure.",
+      "proof_technique": "omega + pow monotonicity + existence witness",
+      "semantic_coverage": "pigeonhole-backbone",
+      "missing_semantics": "Fin-indexed function pigeonhole, cubic vertex existence",
+      "theorems_count": 10
+    },
+    {
+      "file": "T010_TriangleFreeC4FreeLink.lean",
+      "authority_class": "PARTIAL",
+      "card_id": "E595-T9-omitted-edge-witness",
+      "content": "K4-free: witness set W_H(xy) is stable (edge would create K4)",
+      "proof_technique": "K4-free direct contradiction",
+      "semantic_coverage": "stability-core-only",
+      "missing_semantics": "nonemptiness of W_H(xy), maximality",
+      "theorems_count": 2
+    },
+    {
+      "file": "T011_C4FreeNeighborhoodMatching.lean",
+      "authority_class": "STRUCTURAL_CORE",
+      "card_id": "EG-c4free-neighborhood-general",
+      "content": "General: in C4-free graph, N(v) induces max degree <= 1 (matching). Cubic case as corollary. Edge-disjoint triangles. Triangle matching.",
+      "proof_technique": "4-cycle exhibition + corollary derivation",
+      "semantic_coverage": "complete",
+      "missing_semantics": null,
+      "theorems_count": 6
+    }
+  ],
+  "total_lean_theorems": 50,
+  "honest_verdict": {
+    "full_formalizations": 2,
+    "structural_core": 1,
+    "constructive_refutations": 1,
+    "arithmetic_kernels": 5,
+    "partial": 2,
+    "rejected": 0,
+    "note": "T009 rebuilt from REJECTED to ARITHMETIC_KERNEL (2026-08-06). T011 added as STRUCTURAL_CORE (general neighborhood theorem)."
+  }
+}

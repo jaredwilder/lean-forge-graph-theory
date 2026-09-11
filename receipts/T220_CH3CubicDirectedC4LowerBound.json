@@ -1,0 +1,16 @@
+{
+  "file": "T220_CH3CubicDirectedC4LowerBound.lean",
+  "status": "PASS",
+  "sha256": "b0f66b0d10d6b732099dd8b339a355355f6f05fe002f08b8eaa859e7ab1a4a7e",
+  "theorem_count": 13,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-cubic_directed_C4_lower_bound-6da61de2",
+  "lean_name": "cubic_directed_C4_lower_bound",
+  "domain": "directed-graph",
+  "compile_seconds": 0.59,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

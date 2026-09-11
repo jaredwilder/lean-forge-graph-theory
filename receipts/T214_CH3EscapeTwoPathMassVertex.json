@@ -1,0 +1,16 @@
+{
+  "file": "T214_CH3EscapeTwoPathMassVertex.lean",
+  "status": "PASS",
+  "sha256": "a4e22e8f2a988a737bf36f4c8fde681e4e43f92d45e74a990a63f18bab8fd43a",
+  "theorem_count": 8,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-escape_two_path_mass_vertex-fe2e31ff",
+  "lean_name": "escape_two_path_mass_vertex",
+  "domain": "directed-graph",
+  "compile_seconds": 0.69,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

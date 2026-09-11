@@ -1,0 +1,16 @@
+{
+  "file": "T213_CH3NoArcOutnbrToInnbr.lean",
+  "status": "PASS",
+  "sha256": "a8cd9ec78ada553f14e21acef56014bfc76f663edb4bb31ae36b51c51de3bc70",
+  "theorem_count": 2,
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "directed-graph-no_arc_outNbr_to_inNbr-ddb5dc0b",
+  "lean_name": "no_arc_outNbr_to_inNbr",
+  "domain": "directed-graph",
+  "compile_seconds": 0.63,
+  "attempts": 1,
+  "fixes_applied": [],
+  "assumption_returns": [],
+  "timestamp": "2026-08-09T08:10:15Z",
+  "factory_version": "1.0.0"
+}

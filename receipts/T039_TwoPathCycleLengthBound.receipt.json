@@ -1,0 +1,116 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T039_TwoPathCycleLengthBound.lean",
+  "sha256": "96cbc9c1490cafc99fc0116d2e4dad3efdb706844b00fa4870de6db93cbec524",
+  "source_sha256": "96cbc9c1490cafc99fc0116d2e4dad3efdb706844b00fa4870de6db93cbec524",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 6.1,
+  "timestamp": "2026-08-28T14:45:49Z",
+  "theorem_count": 8,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 8,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "ARITHMETIC_KERNEL",
+  "card_id": "EG-two-path-cycle-bound",
+  "semantic_coverage": "path-arithmetic",
+  "missing_semantics": "graph path formalization",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T039_TwoPathCycleLengthBound.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.6,
+    "declarations": [
+      {
+        "declaration": "two_path_cycle",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "two_path_band_promotion",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "two_path_upper",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "two_path_sum_exceeds",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "near_dyadic_path_cycle",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dyadic_plus_offset_cycle",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "dyadic_plus_1_near_dyadic",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "two_path_strictly_between",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "504099362bf451bbc12c3a7b0ed9d0f21087fcddc3ab79a48eb977dfa762f0c1"
+}

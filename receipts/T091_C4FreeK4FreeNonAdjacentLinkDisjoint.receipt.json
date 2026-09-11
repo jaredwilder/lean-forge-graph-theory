@@ -1,0 +1,61 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T091_C4FreeK4FreeNonAdjacentLinkDisjoint.lean",
+  "sha256": "bdac8f8c3894a223d7ee595df610eba6e8e3ee23438acdb47bd9861cd6f44884",
+  "source_sha256": "bdac8f8c3894a223d7ee595df610eba6e8e3ee23438acdb47bd9861cd6f44884",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:50:00Z",
+  "theorem_count": 3,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 3,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "EG-c4free-codegree-one-general",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T091_C4FreeK4FreeNonAdjacentLinkDisjoint.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_codegree_one",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "31384f5e9b5caa5d11340b7ef6d3452d08bdffb0343cc74e72336608cc7085c9"
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T040_C4FreeK4FreePentagon.lean",
+  "sha256": "2d85b819acda933b4bed3f018134e5f04c28d82e78416246e6c6abc3a3cb2426",
+  "source_sha256": "2d85b819acda933b4bed3f018134e5f04c28d82e78416246e6c6abc3a3cb2426",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.3,
+  "timestamp": "2026-08-28T14:45:54Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": true,
+  "error_patterns": [],
+  "authority_class": "STRUCTURAL_CORE",
+  "card_id": "EG-c4free-k4free-pentagon",
+  "semantic_coverage": "complete",
+  "missing_semantics": null,
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T040_C4FreeK4FreePentagon.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.3,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "pentagon_no_triangle_extension",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_triangle_neighbor_disjoint",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "pentagon_minimum_non_triangle",
+        "clean": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "2f387081b6d95df61cb5c47d8d3bda32054e50af87597890784048d2a7c21513"
+}

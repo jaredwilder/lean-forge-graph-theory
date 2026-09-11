@@ -1,0 +1,76 @@
+{
+  "schema": "oracle.lean.receipt.v2",
+  "file": "T167_C4FreeK4FreeCompositionThetaMultiPath.lean",
+  "sha256": "e6edfe8f535a9544f659caa1f5014aeed59397c6e897950dcbc703cc08aebeed",
+  "source_sha256": "e6edfe8f535a9544f659caa1f5014aeed59397c6e897950dcbc703cc08aebeed",
+  "lean_version": "Lean 4.29.1 (backend=windows, project=C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal)",
+  "verified": true,
+  "compile_ok": true,
+  "exit_code": 0,
+  "elapsed_seconds": 2.0,
+  "timestamp": "2026-08-28T14:55:24Z",
+  "theorem_count": 6,
+  "assumption_return_count": 0,
+  "assumption_returns": [],
+  "substantive_count": 6,
+  "warnings_only": false,
+  "error_patterns": [],
+  "authority_class": "FULL_FORMALIZATION",
+  "card_id": "COMP-THETA-GRAPH-C4",
+  "semantic_coverage": "theta-22k-233-333-cross-edge-C4",
+  "missing_semantics": "",
+  "semantic_qc": {
+    "assumption_returns_allowed": false,
+    "passed": true
+  },
+  "rsi_warnings": [],
+  "source_violations": [],
+  "kernel_gate": {
+    "status": "VERIFIED",
+    "file": "oracle/lean-forge/theorems/T167_C4FreeK4FreeCompositionThetaMultiPath.lean",
+    "backend": "windows",
+    "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+    "needsMathlib": false,
+    "exitCode": 0,
+    "seconds": 2.0,
+    "declarations": [
+      {
+        "declaration": "ne_flip",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_no_theta_22k",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_theta_233_cross",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_theta_333_cross",
+        "clean": true,
+        "axioms": []
+      },
+      {
+        "declaration": "c4free_theta_333_deep_cross",
+        "clean": true,
+        "axioms": []
+      }
+    ],
+    "errors": []
+  },
+  "trust_policy": {
+    "compile_exit_zero_is_not_proof": true,
+    "requires_kernel_status": "VERIFIED",
+    "requires_clean_axiom_footprints": true,
+    "forbids_source": [
+      "sorry",
+      "admit",
+      "custom axiom"
+    ]
+  },
+  "receipt_sha256": "9ee3240efea4bcc0a13e768329eeecbe67971809af1b81173e0ea95b6f7b3b43"
+}
